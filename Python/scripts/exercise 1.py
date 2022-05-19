@@ -33,7 +33,6 @@ for name, grade, age in mylist2:
         print(name, grade, age)
 
 
-
 for index, row in df_census.iterrows():
     if row['race'].strip() == 'White':
         df_census.loc[index, 'is_white'] = True
